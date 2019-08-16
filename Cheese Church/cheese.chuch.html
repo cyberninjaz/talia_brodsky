@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <style>
+            html, body {
+                padding:0;
+                margin:0;
+            }    
+            @font-face {
+                font-family: "Comic Sans";
+                src: url("ComicSansMSRegular.ttf");
+            }
+            body {
+                text-align: center;
+                font-family: "Comic Sans"; 
+                background-image: url("floor.jpg");
+                background-size: auto 75%, auto 100%;
+            }
+            nav {
+                background-color: rgb(251, 213, 106);
+                padding-left: 2em;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+            nav a {
+                color: white;
+                font-size: 15pt;
+                font-family: Helvetica, sans-serif;
+                text-decoration: none;
+                letter-spacing: 2px;
+                margin-right: 2em;
+                text-align: center;
+                display: inline-block;
+                height: 100%;
+                padding: .5em 1em;
+                box-sizing: border-box;
+                transition: background-color 1s, color 1s;
+            }
+            section {
+                min-height: 100vh;
+                padding-top: 2.5em;
+            }
+            section#popular-cheeses {
+                background-image: url("cheese-stack.png"), url("floor.jpg");
+                background-size: auto 75%, auto 100%;
+                background-position: center right, center center;
+                background-repeat: no-repeat, repeat-x;
+            }
+            section#popular-cheeses li {
+                padding-left: 0;
+                list-style: none;
+            }
+        </style>
+        <title>Cheese Church</title>
+    </head> 
+    <body>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#popular-cheeses">Popular Cheeses</a>
+        </nav>
+        <h1>Welcome to the Cheese Church!</h1>
+        <section id="home">
+            <h1>Welcome to the Cheese Church!</h1>
+            <img src="pkbad.jpg" alt="WHY" width="410" height="500">
+            <img src="Pastor.png" alt="WHY" width="410" height="500">
+        </section>
+        <section id="popular-cheeses">
+            <h2>List of Popular Cheeses</h2>
+            <ul>
+                <li>Feta</li>
+                <li>Mozzarella</li>
+                <li>Brie</li>
+                <li>Cheddar Cheese</li>
+                <li>Parmigiano Reggiano</li>
+                <li>Provolone</li>
+                <li>Monterey Jack</li>
+                <li>Swiss Cheese</li>
+                <li>Camembert</li>
+                <li>Gruyere Cheese</li>
+                <li>Cottage Cheese </li> 
+                <li>Gorgonzola</li>
+                <li>Muenster Cheese</li>
+                <li>Edam</li>
+                <li>Blue Cheese</li>
+                <li> Mascarpone</li>
+                <li> Ricotta</li>
+                <li>Havarti</li>
+                <li>Manchego</li>
+                <li>Pepper Jack Cheese</li>
+                <li>Cream Cheese</li>
+                <li>American Cheese</li>
+                <li>Roquefort</ul>
+            </ul>
+        </section>
+    </body>
+</html>

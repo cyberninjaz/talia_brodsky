@@ -1,0 +1,92 @@
+html, body {
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family: "Cool Font";
+    src: url("Courgette-Regular.ttf");
+    font-family: "Cabin";
+    src: url("Cabin.zip");
+}
+
+body {
+    background-image: url(Computer.jpg);
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: rgb(247, 247, 247);
+    font-family: Helvetica, sans-serif;
+}
+nav {
+    background-color: black;
+    padding-left: 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav a {
+    color: white;
+    font-size: 15pt;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-right: 2em;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    padding: .5em 1em;
+    box-sizing: border-box;
+    transition: background-color 1s, color 1s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+h1 {
+    font-size: 50pt;
+    font-family: "Cool Font";
+
+}
+section {
+    min-height: 100vh;
+    padding-top: 2.5em;
+}
+section#home {
+    padding-top: 35vh;
+    padding-left: 12vw;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+section#instructions div:nth-of-type(1) {
+    padding-left: 5vw;
+    width: 50vw;
+    float: left;
+}
+section#instructions video{
+    width: 100%;
+}
+section#instructions div:nth-of-type(2) {
+    margin-left: 2.5vw;
+    padding-left: 2.5vw;
+    padding-right: 5vw;
+    width: 35vw;
+    float: left;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+section#instructions ol {
+    line-height: 1.5;
+}
+textarea {
+    font-family: monospace;
+    margin-left: 40px;
+}
+h2#now-you-try {
+    padding-top: 5vw;
+    font-family: "Cabin"
+}

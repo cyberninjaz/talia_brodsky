@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face {
+                font-family: "Comic Sans";
+                src: url("ComicSansMSRegular.ttf");
+            }
+
+            body {
+                text-align: center;
+                background-image: url(sunset.jpg);
+                background-size: 100vw auto;
+                font-family: "Comic Sans";
+                color: white;
+            }
+
+            textarea {
+                font-family: monospace;
+            }
+            section.steps {
+                display: inline-block;
+                margin-right: 2em;
+                text-align: left;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 1em;
+                border-radius: 1em;
+            }
+
+            section.video {
+                margin-top: 1em;
+            }
+
+            section.video video {
+                width: 80vw;  /* "vw" means "viewport width". 1vw is 1% the width of the screen */
+                max-width: 450px;
+            }
+        </style>
+        <title>How To Make A Website</title>
+    </head>
+    <body>
+        <h1>How To Make A Website</h1>
+        <section class="steps">
+            <h2>Steps:</h2>
+            <ol>
+                <li>Install Visual Studio Code</li>
+                <li>Make a folder</li>
+                <li>Open that folder in Visual Studio Code</li>
+                <li>Make a new file in your folder and name the file ___.html</li>
+                <li>Click on extensions and search "open in browser".</li>
+                <li>Install "open in browser"</li>
+                <li>Click with two fingers on the file and click "Open in Default Browser"</li>
+                <li>Go to explorer and type in the code to the right</li>
+            </ol>
+        </section>
+
+        <!-- TEXTAREA -->
+        <textarea rows="10" cols="40"><html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    </body>
+</html></textarea>
+    <!-- END OF TEXTAREA -->
+
+    <section class="video">
+        <video controls>
+            <source src="video_tutorial.mp4">
+        </video>
+    </section>
+
+    </body>
+</html>
