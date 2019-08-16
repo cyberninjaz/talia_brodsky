@@ -5,9 +5,16 @@ html, body {
 @font-face {
     font-family: "Cool Font";
     src: url("Courgette-Regular.ttf");
+}
+@font-face {
     font-family: "Cabin";
     src: url("Cabin.zip");
 }
+@font-face {
+    font-family: "Font 2";
+    src: url("GamjaFlower-Regular.ttf");
+}
+
 
 body {
     background-image: url(Computer.jpg);
@@ -15,15 +22,17 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-color: rgb(247, 247, 247);
-    font-family: Helvetica, sans-serif;
+    font-family:;
+    font-weight: 400;
 }
 nav {
-    background-color: black;
+    background-color: rgb(8, 32, 44);
     padding-left: 2em;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    height: 3em;
 }
 nav a {
     color: white;
@@ -39,7 +48,9 @@ nav a {
     box-sizing: border-box;
     transition: background-color 1s, color 1s;
 }
-
+div#link-container {
+    float: right;
+}
 nav a:hover {
     background-color: white;
     color: black;
@@ -61,6 +72,7 @@ section#home {
 h2 {
     font-size: 35px;
     text-align: center;
+    font-family: "Font 2"
 }
 section#instructions div:nth-of-type(1) {
     padding-left: 5vw;
@@ -76,7 +88,6 @@ section#instructions div:nth-of-type(2) {
     padding-right: 5vw;
     width: 35vw;
     float: left;
-    border-left: 1px solid black;
     box-sizing: border-box;
 }
 section#instructions ol {
@@ -89,4 +100,8 @@ textarea {
 h2#now-you-try {
     padding-top: 5vw;
     font-family: "Cabin"
+}
+nav img  {
+    height: 100%;
+    vertical-align: bottom;
 }
